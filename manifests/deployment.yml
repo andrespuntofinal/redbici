@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: serviciobici 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: serviciobici
+  template:
+    metadata:
+      labels:
+        app: serviciobici 
+    spec:
+      containers:
+        - name: serviciobici 
+          image: crredbici.azurecr.io/serviciobici
+          ports:
+          - containerPort: 8084
