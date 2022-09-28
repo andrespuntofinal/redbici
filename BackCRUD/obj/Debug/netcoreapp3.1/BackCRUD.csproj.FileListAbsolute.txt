@@ -44,3 +44,8 @@ D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Fin
 D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\obj\Debug\netcoreapp3.1\BackCRUD.pdb
 D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\obj\Debug\netcoreapp3.1\BackCRUD.genruntimeconfig.cache
 D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\web.config
+D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\out\web.config
+D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\out\appsettings.Development.json
+D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\out\appsettings.json
+D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\out\BackCRUD.deps.json
+D:\Documentos\Especialización Dllo Software\Arquitecturas Modernas\Proyecto Final\BackCRUD\BackCRUD\bin\Debug\netcoreapp3.1\out\BackCRUD.runtimeconfig.json

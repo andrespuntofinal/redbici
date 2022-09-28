@@ -17,6 +17,7 @@ namespace BackCRUD.Repositories
         {
 
             client = new MongoClient("mongodb://redbici:9JNGax2jpUSSrmexgP0x6PcRQkTk6XgKkatNz9hWTtz9fqDIwf3aBzZim97cgPrI3CwesMfftxg5kMae3w5Sww==@redbici.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@redbici@");
+           
 
             db = client.GetDatabase("RedBici");
 

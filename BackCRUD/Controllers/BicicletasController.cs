@@ -54,7 +54,7 @@ namespace BackCRUD.Controllers
             if (bicicleta == null)
                 return BadRequest();
 
-            if (bicicleta.IdBicicleta == 0)
+            if (bicicleta.Id == "")
             {
 
                 ModelState.AddModelError("Id Bici", "El id no debe ir vacío");
@@ -79,7 +79,7 @@ namespace BackCRUD.Controllers
             if (bicicleta == null)
                 return BadRequest();
 
-            if (bicicleta.IdBicicleta == 0)
+            if (bicicleta.Id == "")
             {
 
                 ModelState.AddModelError("Id Bici", "El id no debe ir vacío");
@@ -87,7 +87,7 @@ namespace BackCRUD.Controllers
 
             }
 
-            bicicleta.Id = new MongoDB.Bson.ObjectId(id);
+            //bicicleta.Id = new MongoDB.Bson.ObjectId(id);
             await db.UpdateBici(bicicleta);
 
 

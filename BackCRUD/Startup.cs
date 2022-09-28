@@ -26,6 +26,16 @@ namespace BackCRUD
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors(options =>
+
+            {
+
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
+                                                                   .AllowAnyHeader()
+                                                                   .AllowAnyMethod());
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

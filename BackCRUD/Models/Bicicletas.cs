@@ -11,8 +11,10 @@ namespace BackCRUD.Models
     {
 
         [BsonId]
-        public ObjectId  Id { get; set; }
-        public int IdBicicleta { get; set; }
+       [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+      //  public string Id { get; set; }
+       // public string IdBicicleta { get; set; }
 
         public string Color { get; set; }
 

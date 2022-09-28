@@ -25,9 +25,16 @@ namespace BackCRUD.Repositories
         public async Task DeleteBici(string id)
         {
 
-            var filter = Builders<Bicicletas>.Filter.Eq(s => s.Id, new ObjectId(id));
+            var filter = Builders<Bicicletas>
+                    .Filter
+                    .Eq(s => s.Id, id.ToString());
+
+            //await collection.ReplaceOneAsync(filter, id);
 
             await collection.DeleteOneAsync(filter);
+
+
+
 
 
         }

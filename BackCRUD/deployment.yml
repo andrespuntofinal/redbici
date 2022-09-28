@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: servbicicletas-deployment
+spec:
+  selector:
+    matchLabels:
+      app: servbicicletas-pod
+  template:
+    metadata:
+      labels:
+        app: servbicicletas-pod
+    spec:
+      containers:
+      - name: servbicicletas-container
+        image: crredbici.azurecr.io/serbici:v1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8084
